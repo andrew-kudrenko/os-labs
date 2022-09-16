@@ -120,7 +120,7 @@ newLine
 
 echoLn '<-- Compiling the program! -->'
 
-gcc $ROOT_DIR/lab_1.c -o lab_1 && echo 'Successfully compiled!' || echo 'Compilation failed!'
+gcc $ROOT_DIR/lab-1/lab_1.c -o lab_1 && echo 'Successfully compiled!' || echo 'Compilation failed!'
 
 echoLn 'Running with current user'
 ./lab_1
